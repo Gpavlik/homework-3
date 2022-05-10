@@ -14,12 +14,13 @@ body {
 li {
     list-style-type: none
 }
-.container {
+.header {
     
 
 }   
 
 .header>.container {
+    border-bottom: #ececec 1px solid;
     display: flex;
     padding-left: 215px;
     padding-right: 215px;
@@ -28,7 +29,6 @@ li {
     width: 1600px
 }
 .logo {
-    
     font-family: var(--logo-text);
     font-weight: 700;
     font-size: 26px;
@@ -63,7 +63,6 @@ li {
 }
 .contact-list {
     display: flex;
-    margin-left: auto;
 }
 .contact-mail {
     font-size: 14px;
