@@ -20,13 +20,15 @@ li {
 }   
 
 .header>.container {
+    margin: 0px;
     border-bottom: #ececec 1px solid;
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between;
     align-items: center;
-    width: 1600px
+    width: 1200px
+
 }
 .logo {
     font-family: var(--logo-text);
@@ -89,13 +91,11 @@ li {
     }
 .hero>.container {
     background: var(--fuller-color);
-    width: 1600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    width: 1200px;
+    padding: 200px 15px;
 }
 .hero-title {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -104,12 +104,14 @@ li {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .properties>.container {
-    width: 1600px;
+    width: 1200px;
 }
 .list {
-    padding: 94px 215px;
+    padding: 94px 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -117,6 +119,10 @@ li {
 .list>.item {
     margin-right: 30px;
 }
+.list>.item:last-child {
+    margin-right: 0px;
+}
+
 .propertie {
     position: absolute;
     white-space: nowrap;
@@ -146,7 +152,7 @@ li {
     color: var(--main-text-color);
 }
 .about-us>.container {
-    width: 1600px;
+    width: 1200px;
 }
 
 .about-us .title, .team .title {
@@ -159,25 +165,26 @@ li {
     margin-bottom: 50px;
 }
 .card-list {
-    padding: 94px 215px;
+    padding: 94px 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.card-list:(last-child){
-    margin-right: 0
 }
 .card {
     margin-right: 30px;
 }
-
+.card:last-child {
+    margin-right: 0px;
+}
 .works-image {
     
 }
 
 .team>.container {
- width: 1600px; 
- padding: 94px 215px;  
+ width: 1200px; 
+ padding: 94px 15px;  
+background-color: #F5F4FA;
 }
 
 .team-cards {
@@ -188,6 +195,12 @@ li {
 
 .card-description {
     margin-right: 30px;
+    background-color: #FFFFFF;
+}
+
+
+.card-description:last-child {
+    margin-right: 0px;
 }
 .team-image {}
 
@@ -210,10 +223,10 @@ li {
 .footer>.container {
     display: block;
     padding-left: 0px;
-    width: 1600px;
+    width: 1200px;
     background: var(--fuller-color);
     font-weight: 400;
-    padding: 60px 215px;
+    padding: 60px 15px;
 }
 .footer .logo {
     margin-bottom: 20px;
@@ -245,7 +258,7 @@ li {
 }
 
 .works>.container {
-    width: 1600px;
+    width: 1200px;
 }
 .works .title {
     position: absolute;
@@ -261,8 +274,8 @@ li {
 }
 .button{
    display: flex;
-   padding: 94px 495px 56px;
-   justify-content: space-around;
+   padding: 94px 15px 56px;
+   justify-content: center;
    align-items: center;
    margin-top: 0px;
    margin-bottom: 0px;
@@ -279,6 +292,10 @@ li {
     cursor: pointer;
     font-weight: 500;
     height: 38px;
+    margin-right: 8px;
+}
+.btn:last-child {
+  
 }
 .select-btn {
     background: var(--brand-color);
@@ -292,6 +309,7 @@ li {
     cursor: pointer;
     border: 0;
     height: 38px;
+    margin-right: 8px;
 }
 .hero .select-btn {
     display: block;
@@ -306,11 +324,11 @@ li {
     color: white;
 }
 .works-cards {
-  width: 1600px;
+  width: 1200px;
   display: flex;  
   flex-wrap: wrap;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 0px;
   margin-bottom: 0px;
   justify-content: space-between;
