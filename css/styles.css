@@ -11,6 +11,9 @@ body {
     font-style: normal;
     font-weight: 500;
 }
+ul {
+    padding-inline-start: 0px;
+}
 li {
     list-style-type: none
 }
@@ -20,7 +23,7 @@ li {
 }   
 
 .header>.container {
-    margin: 0px;
+    margin: 0px auto;
     border-bottom: #ececec 1px solid;
     display: flex;
     padding-left: 15px;
@@ -38,7 +41,7 @@ li {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--brand-color);
-    margin-right: auto;
+    margin-right: 93px;
 }
  .header-logo {
      color: black;
@@ -90,6 +93,7 @@ li {
     cursor: pointer;
     }
 .hero>.container {
+    margin: 0px auto;
     background: var(--fuller-color);
     width: 1200px;
     padding: 200px 15px;
@@ -109,9 +113,11 @@ li {
 }
 .properties>.container {
     width: 1200px;
+    padding: 94px 15px;
+    margin: 0px auto;
 }
 .list {
-    padding: 94px 15px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,6 +159,8 @@ li {
 }
 .about-us>.container {
     width: 1200px;
+    padding: 94px 15px;
+    margin: 0px auto;
 }
 
 .about-us .title, .team .title {
@@ -165,7 +173,7 @@ li {
     margin-bottom: 50px;
 }
 .card-list {
-    padding: 94px 15px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,17 +193,22 @@ li {
  width: 1200px; 
  padding: 94px 15px;  
 background-color: #F5F4FA;
+margin: 0px auto;
 }
 
 .team-cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-inline-start: 0px;
 }
 
 .card-description {
     margin-right: 30px;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 
@@ -222,24 +235,25 @@ background-color: #F5F4FA;
 }
 .footer>.container {
     display: block;
-    padding-left: 0px;
     width: 1200px;
     background: var(--fuller-color);
     font-weight: 400;
     padding: 60px 15px;
+    margin: 0px auto;
 }
 .footer .logo {
-    margin-bottom: 20px;
+       margin-bottom: 20px;
 }
 .footer-logo {
     color: white
 }
 .footer .contact-list {
-
+    padding-inline-start: 0px;
 }
 .footer .contact-mail, .footer .contact-phone {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .footer .contact-mail:hover,
 .footer .contact-mail:focus,
 .footer .contact-phone:hover,
@@ -259,6 +273,9 @@ background-color: #F5F4FA;
 
 .works>.container {
     width: 1200px;
+    padding: 94px 15px 56px;
+    margin: 0px auto;
+
 }
 .works .title {
     position: absolute;
@@ -274,7 +291,6 @@ background-color: #F5F4FA;
 }
 .button{
    display: flex;
-   padding: 94px 15px 56px;
    justify-content: center;
    align-items: center;
    margin-top: 0px;
@@ -293,6 +309,7 @@ background-color: #F5F4FA;
     font-weight: 500;
     height: 38px;
     margin-right: 8px;
+    margin-bottom: 50px;
 }
 .btn:last-child {
   
@@ -310,6 +327,7 @@ background-color: #F5F4FA;
     border: 0;
     height: 38px;
     margin-right: 8px;
+    margin-bottom: 50px;
 }
 .hero .select-btn {
     display: block;
@@ -323,25 +341,32 @@ background-color: #F5F4FA;
     font-weight: 700;
     color: white;
 }
+.works>.container {
+width: 1200px;
+margin: 0px auto;
+padding: 94px 15px;
+
+}
 .works-cards {
-  width: 1200px;
   display: flex;  
   flex-wrap: wrap;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-top: 0px;
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
+padding-inline-start: 0px;
 }
 
 .works-card-description {
     list-style-type: none;
     margin-right: 30px;
     margin-bottom: 30px;
+    width: 368px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
-
+ 
 .works-card-description:nth-of-type(3n+1) {
     margin-left: 0;
   }
