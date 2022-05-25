@@ -17,22 +17,21 @@ ul {
 li {
     list-style-type: none
 }
-.header {
-    
 
-}   
-
-.header>.container {
+.container {
     margin: 0px auto;
-    border-bottom: #ececec 1px solid;
-    display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    width: 1200px
+}    
+.header {
+    border-bottom: #ececec 1px solid;
+    }   
+.header>.container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px
-
-}
+    }
 .logo {
     font-family: var(--logo-text);
     font-weight: 700;
@@ -92,11 +91,10 @@ li {
     color: var(--brand-color);
     cursor: pointer;
     }
-.hero>.container {
-    margin: 0px auto;
+.hero {
     background: var(--fuller-color);
-    width: 1200px;
-    padding: 200px 15px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     width: 696px;
@@ -111,13 +109,11 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-.properties>.container {
-    width: 1200px;
-    padding: 94px 15px;
-    margin: 0px auto;
+.properties {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .list {
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,7 +124,6 @@ li {
 .list>.item:last-child {
     margin-right: 0px;
 }
-
 .propertie {
     position: absolute;
     white-space: nowrap;
@@ -157,10 +152,9 @@ li {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-.about-us>.container {
-    width: 1200px;
-    padding: 94px 15px;
-    margin: 0px auto;
+.about-us{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .about-us .title, .team .title {
@@ -189,11 +183,10 @@ li {
     
 }
 
-.team>.container {
- width: 1200px; 
- padding: 94px 15px;  
+.team {
+padding-top: 94px;
+padding-bottom: 94px;  
 background-color: #F5F4FA;
-margin: 0px auto;
 }
 
 .team-cards {
@@ -233,14 +226,14 @@ margin: 0px auto;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-.footer>.container {
+.footer {
     display: block;
-    width: 1200px;
     background: var(--fuller-color);
     font-weight: 400;
-    padding: 60px 15px;
-    margin: 0px auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+    
 .footer .logo {
        margin-bottom: 20px;
 }
@@ -272,10 +265,8 @@ margin: 0px auto;
 }
 
 .works>.container {
-    width: 1200px;
-    padding: 94px 15px 56px;
-    margin: 0px auto;
-
+    padding-top: 94px;
+    padding-bottom: 56px;
 }
 .works .title {
     position: absolute;
